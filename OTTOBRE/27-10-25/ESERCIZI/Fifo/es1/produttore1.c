@@ -12,7 +12,7 @@
 int main(){
     mkfifo(myfifo, 0666);
     char mess[64];
-    int fd_w = open(myfifo, O_WRONLY);
+    int fd_w = open(myfifo, O_WRONLY -1 );
 
     for(int i = 0 ; i < 10; i++){
         snprintf(mess, sizeof(mess), "%s%d", messaggio, i);

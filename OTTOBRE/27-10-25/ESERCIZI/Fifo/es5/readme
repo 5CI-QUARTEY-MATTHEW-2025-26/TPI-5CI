@@ -1,0 +1,6 @@
+5. Gestione degli Errori e O_NONBLOCK Modificare il programma consumatore.c
+dell’esercizio 1 per aprire la FIFO con il flag O_RDONLY | O_NONBLOCK.
+• Cosa succede se si tenta di leggere dalla FIFO quando è vuota?
+(Si aspetta o restituisce errore?)
+• Implementare un ciclo di lettura non bloccante in cui il Consumatore tenta di leggere e, se read() fallisce con EAGAIN o EWOULDBLOCK,
+stampa un messaggio di attesa e sleep() per 1 secondo.

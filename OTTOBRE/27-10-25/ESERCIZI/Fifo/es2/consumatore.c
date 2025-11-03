@@ -7,7 +7,7 @@
 # include <sys/stat.h>
 #define FIFO_PATH  "/tmp/dati_fifo"
 
-int main(void){
+int main(){
     int fd = open(FIFO_PATH, O_RDONLY);
     if (fd == -1) {
         perror("open");

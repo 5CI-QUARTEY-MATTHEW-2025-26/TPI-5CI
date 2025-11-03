@@ -1,0 +1,6 @@
+1. Gestore di SIGINT (Interruzione) Scrivere un programma C che
+implementa un handler per il segnale SIGINT (generato con CTRL+C).
+L’handler deve:
+• Stampare il messaggio: "Non mi puoi terminare subito! Ho bisogno di pulire."
+• Incrementare un contatore statico.
+• Se SIGINT viene ricevuto per la terza volta, l’handler deve stampare un messaggio di addio e chiamare exit(0).

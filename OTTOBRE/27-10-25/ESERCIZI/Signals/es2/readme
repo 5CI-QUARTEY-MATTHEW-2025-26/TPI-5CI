@@ -1,0 +1,6 @@
+2. Segnali Utente (SIGUSR1 e kill) Scrivere un programma che:
+    • Stampa il proprio PID (getpid()).
+    • Implementa un handler per SIGUSR1 che stampa "Segnale Utente 1 ricevuto!".
+    • Entra in un ciclo infinito con pause() (che attende un segnale).
+    • Istruzioni per l’alunno: Aprire una seconda shell e usare il
+    comando kill -SIGUSR1 [PID] per inviare il segnale.

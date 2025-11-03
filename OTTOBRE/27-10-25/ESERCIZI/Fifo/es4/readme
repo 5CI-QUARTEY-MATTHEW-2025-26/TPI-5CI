@@ -1,0 +1,6 @@
+4. Comunicazione Half-Duplex (Due FIFO) Scrivere due programmi processoA.c e processoB.c che comunicano bidirezionalmente utilizzando due FIFO separate:
+         "/tmp/A_to_B" e "/tmp/B_to_A".
+• A invia il messaggio "PING" a B.
+• B riceve "PING", stampa il messaggio e risponde con "PONG" ad
+A.
+• A riceve "PONG", stampa il messaggio e ripete il ciclo 5 volte.

@@ -1,0 +1,8 @@
+3. Chat Unidirezionale (Server/Client con Blocco) Scrivere server.c e client.c.
+    • Il Server crea una FIFO chiamata "/tmp/chat_server".
+    11
+    • Il Server si blocca in attesa di un messaggio.
+    • Il Client si connette e invia ripetutamente righe di testo digitate
+    dall’utente.
+    • Il Server legge i messaggi e li stampa a video.
+    • Discutere il comportamento bloccante della open() in questo scenario e cosa succede se si esegue il Server prima del Client.

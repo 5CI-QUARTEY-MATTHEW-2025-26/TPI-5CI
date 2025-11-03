@@ -4,6 +4,10 @@
         "fcntl.h": "c",
         "types.h": "c",
         "unistd.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "string.h": "c",
+        "typeinfo": "c",
+        "stat.h": "c",
+        "signal.h": "c"
     }
 }
