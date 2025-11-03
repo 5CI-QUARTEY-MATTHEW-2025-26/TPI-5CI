@@ -30,11 +30,11 @@ int main(){
         scanf("%d", &myArray[n]);
     };
     
-
+    
     int pidpadre = getpid();
 
     int primofiglio = fork();
-  
+    
     if(primofiglio == 0){
         int somma = 0;
         for(n = 0; n < meta; n++){
